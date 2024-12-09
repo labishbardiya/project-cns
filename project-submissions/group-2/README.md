@@ -1,8 +1,16 @@
 # How to Run?
 
-### If not build already, run 'make build' first (make sure the requirements are installed).
+## First make sure the requirements from requirements.txt are installed. (Run in virtual env for better experience)
 
-## Open terminal in build directory
+## Open build directory
+
+### Run 'make'
+This will automatically start the server.(Listening on port 12345) (Server IP can be updated in server.py)
+
+### On the client side, client only needs the client.py file.
+Run client.py on clients machine. (Make sure the server IP is correct)
+
+## Execute the following commands on client side:
 
 ### Do the setup:
 ```bash
